@@ -1,16 +1,27 @@
-# flutter_application_1
+# Flutter TODO App (CRUD)
 
-A new Flutter project.
+Полноценное мобильное приложение для управления задачами.
 
-## Getting Started
+## Функции
+- Добавление задач
+- Редактирование (долгое нажатие)
+- Удаление (кнопка мусорки)
+- Адаптивный дизайн
 
-This project is a starting point for a Flutter application.
+## Скриншоты
+<img src="screenshots/add.png" width="300"/>
+<img src="screenshots/edit.png" width="300"/>
+<img src="screenshots/delete.png" width="300"/>
 
-A few resources to get you started if this is your first Flutter project:
+## Технологии
+- Flutter 3.24+
+- Dart
+- Material Design 3
+- Cline AI Assistant
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Установка
+```bash
+git clone https://github.com/ВАШ_ЛОГИН/flutter-todo-crud.git
+cd flutter-todo-crud
+flutter pub get
+flutter run
